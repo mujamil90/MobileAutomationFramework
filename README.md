@@ -33,10 +33,6 @@
 $ mvn clean test
 ```
 ---
-### Browser Setup
- - Navigate to *.\src\main\resources* change *BrowserType* in the ZalandoConfig.properties
- or use Maven to invoke different browsers
----
 
 ### Report Details
 
