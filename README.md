@@ -57,9 +57,9 @@ $ mvn clean test
  > _disabled_ -> To not save the video
  
  ** Required ADB Commands to get Device and AUT related information:**
-adb devices --> To get list of connected devices.
-adb install <path to apk>  --> Install apk file on device.
-adb uninstall io.appium.uiautomator2.server --> Clear cache of UiAutomator2  from server directory
-adb uninstall io.appium.uiautomator2.server.test --> Clear cache of UiAutomator2  from test directory
-adb shell pm clear <Package/bundle ID of AUT> --> Clear application's data
-adb shell dumpsys window windows | grep -E ‘mCurrentFocus’ --> To get AppPackage and Main activity (before this command open AUT and corresponding page)
+ - adb devices --> To get list of connected devices.
+ - adb install <path to apk>  --> Install apk file on device.
+ - adb uninstall io.appium.uiautomator2.server --> Clear cache of UiAutomator2  from server directory
+ - adb uninstall io.appium.uiautomator2.server.test --> Clear cache of UiAutomator2  from test directory
+ - adb shell pm clear <Package/bundle ID of AUT> --> Clear application's data
+ - adb shell dumpsys window windows | grep -E ‘mCurrentFocus’ --> To get AppPackage and Main activity (before this command open AUT and corresponding page).
