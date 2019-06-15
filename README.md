@@ -1,6 +1,6 @@
 # Mobile Automation Framework-Datadriven
 
-[![N|Solid](http://appium.io/docs/en/img/appium_white_360.png)](http://appium.io/docs/en/) 
+[![N|Solid](http://appium.io/docs/en/img/appium_white_360.png)](http://appium.io/) 
 
 **This is a Mobile automation Framework supports Android based application. It is a data driven framework. Please check 'MobileConfig.properties' file and provide required details for your device and AUT such device ID and Main activity for Application. Prerequisite for AUT (Application under Test), you can provide APK file path if you have '.apk' file for AUT and Main Activity OR you can provide 'App Package' and 'Main activity'.**
 
